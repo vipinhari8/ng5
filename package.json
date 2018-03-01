@@ -25,7 +25,7 @@
     "angularfire2": "^5.0.0-rc.2",
     "bootstrap": "^4.0.0-beta.3",
     "core-js": "^2.4.1",
-    "firebase": "^4.4.0",
+    "firebase": "^4.5.0",
     "font-awesome": "^4.7.0",
     "popper.js": "^1.12.9",
     "primeng": "^5.2.0",
