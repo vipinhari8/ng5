@@ -9,6 +9,7 @@ import { PageNotFoundComponent } from './pages/pagenotfound';
 import { SampleGridComponent } from './pages/sample-grid/sample-grid.component';
 import { GridServiceService } from './services/grid.service';
 import { AccordionComponent } from './pages/accordion/accordion.component';
+import { EmployeesComponent } from './employees/employees.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -17,6 +18,7 @@ const appRoutes: Routes = [
   { path: 'service/:id', component: ServiceComponent },
   { path: 'grid', component:SampleGridComponent},
   { path: 'accordion', component:AccordionComponent},
+  { path: 'employees', component:EmployeesComponent},
   { path: '**', component: PageNotFoundComponent } 
 ];
 
