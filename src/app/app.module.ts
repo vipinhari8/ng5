@@ -26,7 +26,9 @@ import { SampleGridComponent } from './pages/sample-grid/sample-grid.component';
 import { GridServiceService } from './services/grid.service';
 import { AccordionComponent } from './pages/accordion/accordion.component';
 import { environment } from '../environments/environment';
-
+import { EmployeesComponent } from './employees/employees.component';
+import { EmployeeComponent } from './employees/employee/employee.component';
+import { EmployeeListComponent } from './employees/employee-list/employee-list.component';
 
 
 
@@ -38,7 +40,10 @@ import { environment } from '../environments/environment';
     ServiceComponent,
     PageNotFoundComponent,
     SampleGridComponent,
-    AccordionComponent
+    AccordionComponent,
+    EmployeesComponent,
+    EmployeeComponent,
+    EmployeeListComponent
   ],
   imports: [
     BrowserModule,
